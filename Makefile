@@ -8,8 +8,8 @@ TILLER_CLUSTER_ROLE ?= cluster-admin
 
 # Ingress hosts for Brigade UI (Kashti) and GitHub webhook handler
 # Need a domain for this
-# BRIGADE_KASHTI_URL ?= kashti.memelordz.net
-# BRIGADE_GITHUB_APP_URL ?= brigade-github-app.memelordz.net
+BRIGADE_KASHTI_URL ?= kashti.dnvcloudstorage02.blob.core.windows.net
+BRIGADE_GITHUB_APP_URL ?= brigade-github-app.dnvcloudstorage02.blob.core.windows.net
 
 .PHONY: install-helm
 install-helm:
