@@ -7,8 +7,9 @@ TILLER_CLUSTER_ROLE_BINDING ?= helm-admin
 TILLER_CLUSTER_ROLE ?= cluster-admin
 
 # Ingress hosts for Brigade UI (Kashti) and GitHub webhook handler
-BRIGADE_KASHTI_URL ?= kashti.memelordz.net
-BRIGADE_GITHUB_APP_URL ?= brigade-github-app.memelordz.net
+# Need a domain for this
+# BRIGADE_KASHTI_URL ?= kashti.memelordz.net
+# BRIGADE_GITHUB_APP_URL ?= brigade-github-app.memelordz.net
 
 .PHONY: install-helm
 install-helm:
