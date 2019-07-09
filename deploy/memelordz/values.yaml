@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: bloodorangeio/memelordz
+  repository: rfolkker/memelordz
   tag: master
   pullPolicy: Always
 
