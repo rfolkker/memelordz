@@ -10,10 +10,10 @@ const { events, Job } = require('brigadier');
 //
 
 // Custom values for this project
-const projectRootDomain      = 'memelordz.net';
-const projectGithubOwner     = 'bloodorangeio';
+const projectRootDomain      = 'dnvcloudstorage02.blob.core.windows.net';
+const projectGithubOwner     = 'rfolkker';
 const projectGithubRepo      = 'memelordz';
-const projectImageRepo       = 'bloodorangeio/memelordz';
+const projectImageRepo       = 'rfolkker/memelordz';
 const projectHelmReleaseBase = 'memelordz';
 const dockerfileRelativeDir  = 'app/';
 const helmChartRelativeDir   = 'deploy/memelordz/';
